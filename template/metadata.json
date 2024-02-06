@@ -1,0 +1,7 @@
+{
+    "id": "template",
+    "title": "CLDF dataset derived from Blum et al.'s \"A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America (forthcoming).",
+    "license": "CC-BY-4.0",
+    "citation": "",
+	"description": "This repository functions as a template to set up a new lexibank-dataset."
+}
