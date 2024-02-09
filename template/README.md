@@ -1,22 +1,22 @@
-# CLDF dataset derived from Blum et al.'s "A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America (forthcoming).
+# Template for lexibank-repositories.
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Barrientos, Carlos and Peña, Jaime. Forthcoming. A Comparative Wordlist for Investigating the history of north Peruvian isolates and small language families.
+  > Blum, Frederic. 2024. Template for Workshops on "How to digitize data using the Lexibank-skeleton".
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
 
 
-This dataset brings together lexidal data from isolates and small language families from northern Peru to investigate their historic relations.
+This repository functions as a template to set up a new lexibank-dataset.
 
 This dataset is licensed under a CC-BY-4.0 license
 
 
 Conceptlists in Concepticon:
-- [Swadesh-1952-200](https://concepticon.clld.org/contributions/Swadesh-1952-200)
+- [Tadmor-2009-100](https://concepticon.clld.org/contributions/Tadmor-2009-100)
 ## Notes
 
 work in progress
@@ -27,26 +27,31 @@ work in progress
 
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 1
-- **Concepts:** 24
-- **Lexemes:** 24
-- **Sources:** 1
+- **Concepts:** 13
+- **Lexemes:** 13
+- **Sources:** 0
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 150
-- **Segments:** 28 (0 BIPA errors, 0 CLTS sound class errors, 28 CLTS modified)
-- **Inventory size (avg):** 28.00
+- **Tokens:** 77
+- **Segments:** 21 (0 BIPA errors, 0 CLTS sound class errors, 21 CLTS modified)
+- **Inventory size (avg):** 21.00
+
+## Possible Improvements:
+
+
+
+- Entries missing sources: 13/13 (100.00%)
 
 # Contributors
 
 Name | GitHub user | Description | Role |
 --- | --- | --- | --- |
-Frederic Blum | @Tarotis | Data collection, CLDF conversion and annotation | Author
-Adriano Ingunza | @BadBatched | Data collector, CLDF conversion and annotation | Author
+Frederic Blum | @FredericBlum | creator | Author |
 
 
 

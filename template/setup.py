@@ -12,7 +12,7 @@ setup(
     zip_safe=False,
     entry_points={
         'lexibank.dataset': [
-            'template=lexibank_northernperu:Dataset',
+            'template=lexibank_template:Dataset',
         ]
     },
     install_requires=[

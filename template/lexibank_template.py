@@ -31,7 +31,6 @@ class Dataset(BaseDataset):
 
         # add language
         languages = {}
-        sources = defaultdict()
         for language in self.languages:
             args.writer.add_language(
                     ID=language["ID"],
@@ -39,7 +38,6 @@ class Dataset(BaseDataset):
                     Glottocode=language["Glottocode"]
                     )
             languages[language["ID"]] = language["Name"]
-            sources[language["ID"]] = language["Source"]
         args.log.info("added languages")
 
         errors = set()
@@ -68,7 +66,7 @@ class Dataset(BaseDataset):
                     # lexeme = args.writer.add_form_with_segments(
                     args.writer.add_forms_from_value(
                         Parameter_ID=concepts[concept],
-                        Language_ID=language,
+                        Language_ID=languages[language],
                         Value=value.strip(),
                         Comment=note,
                         Source=''

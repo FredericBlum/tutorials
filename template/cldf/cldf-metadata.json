@@ -1,25 +1,18 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Barrientos, Carlos and Pe\u00f1a, Jaime. Forthcoming. A Comparative Wordlist for Investigating the history of north Peruvian isolates and small language families.",
+    "dc:bibliographicCitation": "Blum, Frederic. 2024. Template for Workshops on \"How to digitize data using the Lexibank-skeleton\".",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:description": "This dataset brings together lexidal data from isolates and small language families from northern Peru to investigate their historic relations.",
+    "dc:description": "This repository functions as a template to set up a new lexibank-dataset.",
     "dc:format": [
-        "http://concepticon.clld.org/contributions/Swadesh-1952-200"
+        "http://concepticon.clld.org/contributions/Tadmor-2009-100"
     ],
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Blum et al.'s \"A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America (forthcoming).",
-    "dcat:accessURL": "https://github.com/lexibank/ingunzapuruschamicuro",
+    "dc:title": "Template for lexibank-repositories.",
     "prov:wasDerivedFrom": [
-        {
-            "rdf:about": "https://github.com/lexibank/ingunzapuruschamicuro",
-            "rdf:type": "prov:Entity",
-            "dc:created": "f19986a",
-            "dc:title": "Repository"
-        },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
@@ -53,13 +46,13 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "ingunzapuruschamicuro",
+    "rdf:ID": "template",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 0,
+            "dc:extent": 13,
             "tableSchema": {
                 "columns": [
                     {
@@ -162,7 +155,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 0,
+            "dc:extent": 1,
             "tableSchema": {
                 "columns": [
                     {
@@ -228,7 +221,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 0,
+            "dc:extent": 13,
             "tableSchema": {
                 "columns": [
                     {

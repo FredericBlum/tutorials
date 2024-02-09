@@ -1,4 +1,4 @@
-from lexibank_northernperu import Dataset
+from lexibank_template import Dataset
 from lingpy import Alignments, Wordlist, LexStat
 
 
