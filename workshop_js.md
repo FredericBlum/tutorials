@@ -13,7 +13,7 @@
 10:00 - 10:15   Rückblick und Fragen
 10:15 - 11:00   Vorbereitung: Download, Überblick über die Files, Lexibank-Struktur
 11:00 - 11:15   Kaffeepause
-11:15 - 12:30   Daten digitalisieren (IPA table schicken)
+11:15 - 12:30   Daten digitalisieren (<https://ipa.typeit.org/full/>)
 12:30 - 12:45   Kaffeepause
 12:45 - 13:45   Erster Edictor import; dann Cldfbench, cogid Analyse, Trimming
 13:45 - 14:15   Mittagspause
@@ -24,19 +24,21 @@
 
 ## Vorbereitung
 
-- Repository mit kompletter Infrastruktur, raw-file muss gefüllt werden
-analysis-Ordner
-
 Ziel: Repository erstellen, ortho-profile (lexibank init profile), COGID + Trimming, EDICTOR benutzen
 Ist es realistisch, dass sie die Daten von drei verwandten Sprachen digitalisieren und benutzen?
 
 erster run mit cldfbench
 dann init profile
 ortho profile verfeinern
-dann cogid analyse + trimming vorbereiten
+dann cogid analyse + trimming vorbereiten als Skript und laufen lassen
 dannn lokal in edictor laden, erst zeigen, dann selber machen
-karte selber machen
+Correspondence patterns anzeigen in EDICTOR
+karte selber machen (easy!)
+evtl. Script mit Splitstree vorbereiten das sie laufen lassen können am Ende
 
 Spanisch: Jakway (1975)
 Französisch: Loukotka 1963
 Portugiesisch: Carvalho (1931)
+
+deCarvalho (2013): Zaparoan
+In total there are 50 cognate sets

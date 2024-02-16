@@ -1,0 +1,33 @@
+# Wordlist
+
+# DATA
+ID	CONCEPT_ID	CONCEPT	DOCULECT	LANGUAGE_NAME	VALUE	FORM	TOKENS	GLOTTOCODE	CONCEPT_CONCEPTICON_ID	COMMENT	SONARS	PROSTRINGS	CLASSES	LANGID	NUMBERS	WEIGHTS	IPA	DUPLICATES	COGID
+#
+10	43_black	black	Morike	Morike	paskšómašišo	paskšómašišo	p a s k ʃ !ó/o m a ʃ i ʃ o		163	schwarz	1 7 3 1 3 7 4 7 3 7 3 7	AXMBCYBYBYBZ	PASKSUMASISU	1	1.P.C 1.A.V 1.S.c 1.K.C 1.S.C 1.U.V 1.M.C 1.A.V 1.S.C 1.I.V 1.S.C 1.U.V	2.0 1.5 1.1 1.75 1.5 1.3 1.75 1.3 1.75 1.3 1.75 0.8	paskʃ!ó/omaʃiʃo	0	1
+#
+4	22_ear	ear	Morike	Morike	pʋái	pʋái	p ʋ !á/a i		1247	Ohr	1 6 7 7	ACXZ	PWAI	1	1.P.C 1.W.C 1.A.V 1.I.V	2.0 1.5 1.5 0.8	pʋ!á/ai	0	2
+#
+3	83_eye	eye	Morike	Morike	piṓki̯	piṓki̯	p i o k !i̯/i		1248	Auge	1 7 7 1 7	AXYBZ	PIUKI	1	1.P.C 1.I.V 1.U.V 1.K.C 1.I.V	2.0 1.5 1.3 1.75 0.8	piok!i̯/i	0	3
+#
+6	1_fire	fire	Morike	Morike	aškṓmi	aškṓmi	a ʃ k o m i		221	Feuer	7 3 1 7 4 7	XMBYBZ	ASKUMI	1	1.A.V 1.S.c 1.K.C 1.U.V 1.M.C 1.I.V	1.5 1.1 1.75 1.3 1.75 0.8	aʃkomi	0	4
+#
+12	57_good	good	Morike	Morike	ontí	ontí	o n t !í/i		1035	gut	7 4 1 7	XMBZ	UNTI	1	1.U.V 1.N.c 1.T.C 1.I.V	1.5 1.1 1.75 0.8	ont!í/i	0	5
+#
+8	26_house	house	Morike	Morike	anár	anár	a n !á/a r		1252	Haus (Wohn-)	7 4 7 5	XBYN	ANAR	1	1.A.V 1.N.C 1.A.V 1.R.c	1.5 1.75 1.3 0.8	an!á/ar	0	6
+#
+9	33_one	one	Morike	Morike	akápastoi	akápastoi	a k !á/a p a s t o i		1493	eins	7 1 7 1 7 3 1 7 7	XBYBYMBYZ	AKAPASTUI	1	1.A.V 1.K.C 1.A.V 1.P.C 1.A.V 1.S.c 1.T.C 1.U.V 1.I.V	1.5 1.75 1.3 1.75 1.3 1.1 1.75 1.3 0.8	ak!á/apastoi	0	7
+#
+11	65_red	red	Morike	Morike	kurápuits	kurápuits	k u r !á/a p u i ts		156	rot	1 7 5 7 1 7 7 2	AXBYBYYN	KYRAPYIC	1	1.K.C 1.Y.V 1.R.C 1.A.V 1.P.C 1.Y.V 1.I.V 1.C.c	2.0 1.5 1.75 1.3 1.75 1.3 1.3 0.8	kur!á/apuits	0	8
+#
+7	63_soil	soil	Morike	Morike	pṓtonǒ	pṓtonǒ	p o t o n !ǒ/o		1228	Erde (Erdboden)	1 7 1 7 4 7	AXBYBZ	PUTUNU	1	1.P.C 1.U.V 1.T.C 1.U.V 1.N.C 1.U.V	2.0 1.5 1.75 1.3 1.75 0.8	poton!ǒ/o	0	9
+#
+13	75_toeat	to eat	Morike	Morike	pinšínari	pinšínari	p i n ʃ !í/i n a r i		1336	essen	1 7 4 3 7 4 7 5 7	AXMBYBYBZ	PINSINARI	1	1.P.C 1.I.V 1.N.c 1.S.C 1.I.V 1.N.C 1.A.V 1.R.C 1.I.V	2.0 1.5 1.1 1.75 1.3 1.75 1.3 1.75 0.8	pinʃ!í/inari	0	10
+#
+1	6_tongue	tongue	Morike	Morike	pimĩn	pimĩn	p i m ĩ n		1205	Zunge	1 7 4 7 4	AXBYN	PIMIN	1	1.P.C 1.I.V 1.M.C 1.I.V 1.N.c	2.0 1.5 1.75 1.3 0.8	pimĩn	0	11
+#
+2	30_tooth	tooth	Morike	Morike	pas	pas	p a s		1380	Zahn	1 7 3	AXN	PAS	1	1.P.C 1.A.V 1.S.c	2.0 1.5 0.8	pas	0	12
+#
+5	4_water	water	Morike	Morike	ōn	ōn	ō n		948	Wasser	7 4	XN	UN	1	1.U.V 1.N.c	1.5 0.8	ōn	0	13
+# Created using the LexStat class of LingPy-2.6.13
+# Parameters: 2:1_1.00_10000_0.70_global-2-0.50:local-1-0.50_0.30__T_shuffle_False:upgma:-2_0.7_0.00_-5.00
+# Cluster: lexstat_infomap_0.55

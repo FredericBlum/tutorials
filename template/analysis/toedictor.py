@@ -1,4 +1,3 @@
-from lexibank_template import Dataset
 from lingpy import Alignments, Wordlist, LexStat
 
 
@@ -7,9 +6,7 @@ cols = ['concept_id', 'concept_name', 'language_id', 'language_name', 'value',
         'comment']
 
 # Load dataset
-DS = Dataset()
-wl = Wordlist.from_cldf(
-    DS.cldf_dir.joinpath('cldf-metadata.json'),
+wl = Wordlist.from_cldf('../cldf/cldf-metadata.json',
     columns=cols,
     namespace=(
         ("language_id", "doculect"),
@@ -38,4 +35,4 @@ for idx in alms:
     D[idx] = [alms[idx, h] for h in D[0]]
 
 # Create sqlite
-lex.output('tsv', filename="ipc_edictor", ignore="all")
+lex.output('tsv', filename="example", ignore="all")
