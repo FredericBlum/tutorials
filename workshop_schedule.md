@@ -7,8 +7,8 @@ Uhrzeit | Thema |
 16:00 - 16:30 | Vorstellung, Erwartungen |
 16:30 - 17:00 | Kursinhalt, Überblick |
 17:00 - 17:20 | Pause |
-17:20 - 18:00 | Referenzkataloge; was kann man machen mit computergestützten Methoden? |
-18:00 - 18:30 | Vorbereitung: Überblick über die Lexibank-Struktur |
+17:20 - 18:00 | Einführung in die computergestützte Historische Linguistik |
+18:00 - 18:30 | Vorbereitung: Überblick über die Struktur eines Lexibank-datasets |
 
 ## Samstag: 10:00 - 16:30
 
