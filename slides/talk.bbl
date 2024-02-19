@@ -1,0 +1,532 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Blevins2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a5957d2c1b712d8ab2c3afb159b80fc6}{%
+           family={Blevins},
+           familyi={B\bibinitperiod},
+           given={Juliette},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36e382e4bd95d1f268cfbf79f3940a08}{%
+           family={Sproat},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins Publishing Company}%
+      }
+      \strng{namehash}{50dcc06849f80817d108d176b8e76aec}
+      \strng{fullhash}{50dcc06849f80817d108d176b8e76aec}
+      \strng{bibnamehash}{50dcc06849f80817d108d176b8e76aec}
+      \strng{authorbibnamehash}{50dcc06849f80817d108d176b8e76aec}
+      \strng{authornamehash}{50dcc06849f80817d108d176b8e76aec}
+      \strng{authorfullhash}{50dcc06849f80817d108d176b8e76aec}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1569-9714}
+      \field{journaltitle}{Diachronica}
+      \field{month}{5}
+      \field{number}{4}
+      \field{title}{Statistical evidence for the Proto-Indo-European-Euskarian hypothesis: A word-list approach integrating phonotactics}
+      \field{volume}{38}
+      \field{year}{2021}
+      \field{pages}{506\bibrangedash 564}
+      \range{pages}{59}
+      \verb{doi}
+      \verb 10.1075/dia.19014.ble
+      \endverb
+    \endentry
+    \entry{Blum2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4eca2bb2a20dd8e85edf834d66339d0e}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=190ecab92949c26a30144b3a123b3339}{%
+           family={Barrientos},
+           familyi={B\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{70aa583a277d1528fce1596b4be5d989}
+      \strng{fullhash}{70aa583a277d1528fce1596b4be5d989}
+      \strng{bibnamehash}{70aa583a277d1528fce1596b4be5d989}
+      \strng{authorbibnamehash}{70aa583a277d1528fce1596b4be5d989}
+      \strng{authornamehash}{70aa583a277d1528fce1596b4be5d989}
+      \strng{authorfullhash}{70aa583a277d1528fce1596b4be5d989}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer-Assisted Language Comparison in Practice}
+      \field{number}{6}
+      \field{title}{A New Dataset with Phonological Reconstructions in CLDF}
+      \field{volume}{6}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://calc.hypotheses.org/6142
+      \endverb
+      \verb{url}
+      \verb https://calc.hypotheses.org/6142
+      \endverb
+    \endentry
+    \entry{Blum2024}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4eca2bb2a20dd8e85edf834d66339d0e}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=190ecab92949c26a30144b3a123b3339}{%
+           family={Barrientos},
+           familyi={B\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4b14e144bc66a75aca63f34141f6e36}{%
+           family={Zariquiey},
+           familyi={Z\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cfa103df0e9c1d9472d24db038f1e37}{%
+           family={List},
+           familyi={L\bibinitperiod},
+           given={Johann-Mattis},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{11ca68e1c8dd260eda2b646ef24f767b}
+      \strng{fullhash}{def9350078c2f0211e6f6092207a1179}
+      \strng{bibnamehash}{def9350078c2f0211e6f6092207a1179}
+      \strng{authorbibnamehash}{def9350078c2f0211e6f6092207a1179}
+      \strng{authornamehash}{11ca68e1c8dd260eda2b646ef24f767b}
+      \strng{authorfullhash}{def9350078c2f0211e6f6092207a1179}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{A comparative wordlist for investigating distant relations among languages in Lowland South America}
+      \field{volume}{11}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1038/s41597-024-02928-7
+      \endverb
+    \endentry
+    \entry{Forkel2018}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=951238340aa8b7462747dcf6168e4cd3}{%
+           family={Forkel},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cfa103df0e9c1d9472d24db038f1e37}{%
+           family={List},
+           familyi={L\bibinitperiod},
+           given={Johann-Mattis},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d450f95f3402a3f308500dc33706566b}{%
+           family={Greenhill},
+           familyi={G\bibinitperiod},
+           given={Simon\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8eae94d6cc5d715a306313a7d6722adf}{%
+           family={Rzymski},
+           familyi={R\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a288f90871ff97ee3402490ca2632307}{%
+           family={Bank},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9b362c429886f61e89c1fdea069b662}{%
+           family={Cysouw},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15347a08468131ff7bf0aae9d41f41f3}{%
+           family={Hammarström},
+           familyi={H\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6554cfb014a9427af44c63f16722a3dd}{%
+           family={Haspelmath},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf1dc8bf1e320430b753c840dc33f7da}{%
+           family={Kaiping},
+           familyi={K\bibinitperiod},
+           given={Gereon\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a31d0d793258df0feb157ce73a9caac}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Russell\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b5430a7384cd3f6dccbee0a3790bcf2}
+      \strng{fullhash}{e6660163762a6b2ce2b0a7ed92be6483}
+      \strng{bibnamehash}{e6660163762a6b2ce2b0a7ed92be6483}
+      \strng{authorbibnamehash}{e6660163762a6b2ce2b0a7ed92be6483}
+      \strng{authornamehash}{4b5430a7384cd3f6dccbee0a3790bcf2}
+      \strng{authorfullhash}{e6660163762a6b2ce2b0a7ed92be6483}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{{Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics}}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/sdata.2018.205
+      \endverb
+    \endentry
+    \entry{Girard1971}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90fe33afbc5131fb1f9f8e80ad7bd881}{%
+           family={Girard},
+           familyi={G\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, Los Angeles, London}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{90fe33afbc5131fb1f9f8e80ad7bd881}
+      \strng{fullhash}{90fe33afbc5131fb1f9f8e80ad7bd881}
+      \strng{bibnamehash}{90fe33afbc5131fb1f9f8e80ad7bd881}
+      \strng{authorbibnamehash}{90fe33afbc5131fb1f9f8e80ad7bd881}
+      \strng{authornamehash}{90fe33afbc5131fb1f9f8e80ad7bd881}
+      \strng{authorfullhash}{90fe33afbc5131fb1f9f8e80ad7bd881}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Proto-Takanan Phonology}}
+      \field{year}{1971}
+    \endentry
+    \entry{Oliveira2014}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d82d67b43b11eb6d20dd085a98ab386}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Sanderson\bibnamedelimb Castro\bibnamedelimb Soares\bibnamedelima de},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de Brasília}%
+      }
+      \list{location}{1}{%
+        {Brasília}%
+      }
+      \strng{namehash}{3d82d67b43b11eb6d20dd085a98ab386}
+      \strng{fullhash}{3d82d67b43b11eb6d20dd085a98ab386}
+      \strng{bibnamehash}{3d82d67b43b11eb6d20dd085a98ab386}
+      \strng{authorbibnamehash}{3d82d67b43b11eb6d20dd085a98ab386}
+      \strng{authornamehash}{3d82d67b43b11eb6d20dd085a98ab386}
+      \strng{authorfullhash}{3d82d67b43b11eb6d20dd085a98ab386}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Contribuições para a reconstrução do Protopáno}}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://repositorio.unb.br/handle/10482/17129
+      \endverb
+      \verb{url}
+      \verb https://repositorio.unb.br/handle/10482/17129
+      \endverb
+    \endentry
+    \entry{Rzymski2020}{article}{}
+      \name{author}{27}{}{%
+        {{un=0,uniquepart=base,hash=8eae94d6cc5d715a306313a7d6722adf}{%
+           family={Rzymski},
+           familyi={R\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=287b637fceb22c96d5939c3e09a91426}{%
+           family={Tresoldi},
+           familyi={T\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d450f95f3402a3f308500dc33706566b}{%
+           family={Greenhill},
+           familyi={G\bibinitperiod},
+           given={Simon\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85773bd8f0b560a199d65f93736446e6}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Mei-Shin},
+           giveni={M\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2303fed69656576f65f69cdb302862da}{%
+           family={Schweikhard},
+           familyi={S\bibinitperiod},
+           given={Nathanael\bibnamedelima E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eb8576dd2231c74ba9d03c97cc07df6}{%
+           family={Koptjevskaja-Tamm},
+           familyi={K\bibinithyphendelim T\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=821b1eb617df0a5d634692c1a86e544c}{%
+           family={Gast},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f32df9648f00736b31c682604386da7}{%
+           family={Bodt},
+           familyi={B\bibinitperiod},
+           given={Timotheus\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ebfb63bfd2dcad77d7eb4730e6b29f9}{%
+           family={Hantgan},
+           familyi={H\bibinitperiod},
+           given={Abbie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf1dc8bf1e320430b753c840dc33f7da}{%
+           family={Kaiping},
+           familyi={K\bibinitperiod},
+           given={Gereon\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15b5e5de606639e9d375c11fb244cba7}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=531bb769625b92a6f4e337bc9071fb05}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Yunfan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f26fb2b85a42b65f9b716142e01eb1ee}{%
+           family={Morozova},
+           familyi={M\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1cc3a7b97e0d20e8c1b2bba2e7c745c}{%
+           family={Arjava},
+           familyi={A\bibinitperiod},
+           given={Heini},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a138dedc1a502305f899a6aca9b609a}{%
+           family={Hübler},
+           familyi={H\bibinitperiod},
+           given={Nataliia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb906d3077f889b20a2c12bd5648e3bc}{%
+           family={Koile},
+           familyi={K\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04a3fe4f97183599f1ee03686fd51162}{%
+           family={Pepper},
+           familyi={P\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e680a87554736aa548632d02b7882e0}{%
+           family={Proos},
+           familyi={P\bibinitperiod},
+           given={Mariann},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abb52a1301b55e656ec753eafd47d9df}{%
+           family={Epps},
+           familyi={E\bibinitperiod},
+           given={Briana\bibnamedelima Van},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aeae0d898414ce6aa1f5c027932c8e1b}{%
+           family={Blanco},
+           familyi={B\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=895a1a154d2cb1a5ab4870f996d24462}{%
+           family={Hundt},
+           familyi={H\bibinitperiod},
+           given={Carolin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=654a9453736e6343e30d0fe931656a60}{%
+           family={Monakhov},
+           familyi={M\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f016fb9f088f0029c9a80740b1b4f8cf}{%
+           family={Pianykh},
+           familyi={P\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de74c283b054032c72629bcf1bd1d306}{%
+           family={Ramesh},
+           familyi={R\bibinitperiod},
+           given={Sallona},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a31d0d793258df0feb157ce73a9caac}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Russell\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=951238340aa8b7462747dcf6168e4cd3}{%
+           family={Forkel},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5cfa103df0e9c1d9472d24db038f1e37}{%
+           family={List},
+           familyi={L\bibinitperiod},
+           given={Johann-Mattis},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb576e5cff4fbbfe0705e6d539ff6e8d}
+      \strng{fullhash}{6a57b19ca0c189ee2d17e00a9844fa2a}
+      \strng{bibnamehash}{6a57b19ca0c189ee2d17e00a9844fa2a}
+      \strng{authorbibnamehash}{6a57b19ca0c189ee2d17e00a9844fa2a}
+      \strng{authornamehash}{cb576e5cff4fbbfe0705e6d539ff6e8d}
+      \strng{authorfullhash}{6a57b19ca0c189ee2d17e00a9844fa2a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{The Database of Cross-Linguistic Colexifications, reproducible analysis of cross-linguistic polysemies}
+      \field{volume}{7}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1038/s41597-019-0341-x
+      \endverb
+    \endentry
+    \entry{Valenzuela2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a6c5adb4ce73fb0f0e8dc059137a26ba}{%
+           family={Valenzuela},
+           familyi={V\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4b14e144bc66a75aca63f34141f6e36}{%
+           family={Zariquiey},
+           familyi={Z\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f6900251fdee39f7be89fdcc63c99cf1}
+      \strng{fullhash}{f6900251fdee39f7be89fdcc63c99cf1}
+      \strng{bibnamehash}{f6900251fdee39f7be89fdcc63c99cf1}
+      \strng{authorbibnamehash}{f6900251fdee39f7be89fdcc63c99cf1}
+      \strng{authornamehash}{f6900251fdee39f7be89fdcc63c99cf1}
+      \strng{authorfullhash}{f6900251fdee39f7be89fdcc63c99cf1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{LIAMES}: Línguas Indígenas Americanas}
+      \field{title}{{Language classification in Western Amazonia: Advances in favor of the Pano-Takana Hypothesis}}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{e023002}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.20396/liames.v23i00.8670150
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

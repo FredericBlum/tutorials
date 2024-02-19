@@ -35,4 +35,4 @@ for idx in alms:
     D[idx] = [alms[idx, h] for h in D[0]]
 
 # Create sqlite
-lex.output('tsv', filename="example", ignore="all")
+lex.output('tsv', filename="d_example", ignore="all")

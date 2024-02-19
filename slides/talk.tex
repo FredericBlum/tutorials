@@ -1,0 +1,126 @@
+\documentclass[a4paper, 11pt, table, t]{beamer}
+\usepackage[english]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%      Packages        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{changepage}
+\usepackage{graphicx}
+% IPA symbols
+\usepackage{tipa}
+
+% code output
+\usepackage{listings}
+
+% add "left" option for includegraphics
+\usepackage[export]{adjustbox}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   FOLIEN & DESIGN    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usetheme{Frankfurt}
+\usecolortheme{seahorse}
+\usefonttheme{default}
+
+\definecolor{MPI}{RGB}{0,85,85}
+\setbeamercolor{structure}{fg=MPI}
+\setbeamertemplate{headline}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Bibliography       %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[
+	backend=biber,
+	bibstyle=unified,
+	citestyle=authoryear-comp,
+	uniquelist=false,
+	maxcitenames=2,
+	maxbibnames=99
+	]{biblatex}
+
+\addbibresource{../../../literature/all_sources.bib}
+\addbibresource{../../../literature/my_publications.bib}
+
+
+% add numbered captions
+\setbeamertemplate{caption}[numbered]
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=30pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+\end{frame}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Beamer Templates
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{bibliography item}{}
+\setbeamerfont{bibliography entry author}{size=\small}
+ 
+ 
+\newcommand\RBox[1]{%
+  \tikz\node[draw,rounded corners,align=center,] {#1};%
+}
+
+\beamertemplatenavigationsymbolsempty
+
+\setbeamertemplate{footline}
+{
+    \leavevmode%
+    \hbox{%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+            \usebeamerfont{author in head/foot}\insertshortauthor
+        \end{beamercolorbox}%
+        
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+            \usebeamerfont{title in head/foot}\insertshorttitle
+        \end{beamercolorbox}%
+        
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+            \usebeamerfont{date in head/foot}{CALC Workshop, 24.02.2024}\hspace*{2em}
+            \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+        \end{beamercolorbox}}%
+        \vskip0pt%
+    }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{title}
+\begin{document}
+
+{
+\setbeamertemplate{footline}{} 
+\begin{frame}[label=intro,noframenumbering]
+\maketitle
+\end{frame}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Slides
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{slides}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{singlespace}
+\begin{frame}[allowframebreaks]{References}
+	\printbibliography
+\end{frame}
+\end{singlespace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

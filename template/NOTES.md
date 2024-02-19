@@ -98,6 +98,17 @@ We will cover the following steps:
 - Alignments
 - Sound Correspondences
 
+### Extract sound correspondences
+
+Using LingPy, it is possible to automatically extract the sound correspondences that have been inferred from the cognate sets. To do so, just run the following code:
+
+```shell
+pip instal lingrex
+python write_patterns.py
+```
+
+The script makes use of the LingRex package and creates a file `patterns.tsv` that lets you manually inspect the extracted patterns.
+
 ### Distances and Trees
 
 The material in this section is based on the LingPy-Tutorial from Mattis List that you can find [here](https://github.com/lingpy/lingpy-tutorial/tree/v1.1).
@@ -159,3 +170,4 @@ ON
 Blum et al (2024)
 Grambank
 Lexibank
+LingRex
