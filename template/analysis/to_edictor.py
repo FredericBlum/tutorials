@@ -17,7 +17,7 @@ wl = Wordlist.from_cldf('../cldf/cldf-metadata.json',
 for idx in wl:
     wl[idx, "tokens"] = [x for x in wl[idx, "tokens"] if x != "+"]
 
-# Run AutoCogid
+# Run automated analysis of cognates
 lex = LexStat(wl)
 lex.get_scorer(runs=10000)
 lex.cluster(threshold=0.55, method="lexstat", cluster_method="infomap", ref="cogid")
