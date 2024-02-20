@@ -1,6 +1,8 @@
 ## Description
 
-This repository contains a template that will be used for workshops on 'How to create a LexiBank dataset' and the annotation of such a dataset using EDICTOR. Feel free to use und share this repository, or to contribute directly if you see any errors.
+This repository contains a template that will be used for workshops on 'How to create a LexiBank dataset' and the annotation of such a dataset using EDICTOR (<https://digling.org/edictor/>). The goal is to creating a dataset in Lexibank style (List et al. 2023), which is a specific form of CLDF datasets (Forkel et al. 2018).
+
+Feel free to use und share this repository, or to contribute directly if you see any errors.
 
 ### Overview of the repository
 
@@ -128,7 +130,7 @@ The tree is probably not perfect, but provide you with a first glimpse of the ph
 
 ### Combining the dataset with Grambank data
 
-Given the linking to reference catalogues, we can easily combine our dataset with other CLDF datasets, such as Grambank. An example for this is given in the Blum et al. (2024) paper. To follow the proposed workflow, it is necessary to first clone the Grambank-repository.
+Given the linking to reference catalogues, we can easily combine our dataset with other CLDF datasets, such as Grambank (Skirgård et al. 2023). An example for this is given in the Blum et al. (2024) paper. To follow the proposed workflow, it is necessary to first clone the Grambank-repository.
 
 ```shell
 git clone https://github.com/grambank/grambank
@@ -166,8 +168,9 @@ ON
 
 ## References
 
-+++ add +++
-Blum et al (2024)
-Grambank
-Lexibank
-LingRex
+Blum, F., Barrientos, C., Zariquiey, R., & List, J.-M. (2024). A comparative wordlist for investigating distant relations among languages in Lowland South America. Scientific Data, 11(1). <https://doi.org/10.1038/s41597-024-02928-7>
+Forkel, R., List, J.-M., Greenhill, S. J., Rzymski, C., Bank, S., Cysouw, M., Hammarström, H., Haspelmath, M., Kaiping, G. A., & Gray, R. D. (2018). Cross-Linguistic Data Formats, advancing data sharing and re-use in comparative linguistics. Scientific Data, 5(1), 1–10. <https://doi.org/10.1038/sdata.2018.205>
+List, J.-M. (2022). EDICTOR. A web-based tool for creating, editing, and publishing etymological datasets. Max Planck Institute for Evolutionary Anthropology.
+List, J.-M., Forkel, R., Greenhill, S. J., Rzymski, C., Englisch, J., & Gray, R. D. (2022). Lexibank, a public repository of standardized wordlists with computed phonological and lexical features. Scientific Data, 9(1), 1–16. <https://doi.org/10.1038/s41597-022-01432-0>
+List, J.-M., Forkel, R., & Hill, N. (2022). A New Framework for Fast Automated Phonological Reconstruction Using Trimmed Alignments and Sound Correspondence Patterns. In N. Tahmasebi, S. Montariol, A. Kutuzov, S. Hengchen, H. Dubossarsky, & L. Borin (Eds.), Proceedings of the 3rd Workshop on Computational Approaches to Historical Language Change (pp. 89–96). Association for Computational Linguistics. <https://doi.org/10.18653/v1/2022.lchange-1.9>
+Skirgård, H., Haynie, H. J., Blasi, D. E., Hammarström, H., Collins, J., Latarche, J. J., Lesage, J., Weber, T., Witzlack-Makarevich, A., Passmore, S., Chira, A., Maurits, L., Dinnage, R., Dunn, M., Reesink, G., Singer, R., Bowern, C., Epps, P., Hill, J., et al. (2023). Grambank reveals the importance of genealogical constraints on linguistic diversity and highlights the impact of language loss. Science Advances, 9(16). <https://doi.org/10.1126/sciadv.adg6175>

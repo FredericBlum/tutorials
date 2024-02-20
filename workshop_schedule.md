@@ -27,12 +27,3 @@ Uhrzeit | Thema |
 16:15 - 16:30 | Evaluation + Abschlussrunde |
 
 Wenn wir Zeit übrig haben: <https://doi.org/10.18653/v1/2023.lchange-1.3>
-
-## Mögliche Datensätze
-
-Spanisch: Jakway (1975)
-Französisch: Loukotka 1963
-Portugiesisch: Carvalho (1931)
-
-deCarvalho (2013): Zaparoan
-In total there are 50 cognate sets
