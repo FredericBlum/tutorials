@@ -1,2 +1,5 @@
 \babel@toc {english}{}\relax 
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {1}{Intro}{2}{0}{1}
+\beamer@sectionintoc {2}{Historische Linguistik}{5}{0}{2}
+\beamer@sectionintoc {3}{CLDF}{24}{0}{3}
+\beamer@sectionintoc {4}{Beispiele für Studien}{27}{0}{4}
