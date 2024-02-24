@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Blum, Frederic. 2024. Template for Workshops on \"How to digitize data using the Lexibank-skeleton\".",
+    "dc:bibliographicCitation": "Blum, Frederic. 2024. Template for Workshops on How to digitize data using the Lexibank-skeleton.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": "This repository functions as a template to set up a new lexibank-dataset.",
     "dc:format": [

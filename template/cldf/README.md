@@ -1,23 +1,22 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Wordlist CLDF dataset derived from Blum et al.'s "A Comparative Wordlist for Investigating Distant Relations Among Languages in Lowland South America (forthcoming).
+# Wordlist Template for lexibank-repositories.
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
 **Sources**: [sources.bib](./sources.bib)
 
-This dataset brings together lexidal data from isolates and small language families from northern Peru to investigate their historic relations.
+This repository functions as a template to set up a new lexibank-dataset.
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic and Ingunza, Adriano and Gonzales, Rosa and Barrientos, Carlos and Peña, Jaime. Forthcoming. A Comparative Wordlist for Investigating the history of north Peruvian isolates and small language families.
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic. 2024. Template for Workshops on How to digitize data using the Lexibank-skeleton.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
-[dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Swadesh-1952-200</li></ol>
+[dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Tadmor-2009-100</li></ol>
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/ingunzapuruschamicuro
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/ingunzapuruschamicuro/tree/26fb507">lexibank/ingunzapuruschamicuro 26fb507</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.1.0">Concepticon v3.1.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v3.1.0">Concepticon v3.1.0</a></li><li><a href="https://github.com/cldf-clts/clts/tree/v2.2.0">CLTS v2.2.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.11.7</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
-[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | ingunzapuruschamicuro
+[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | template
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
@@ -35,7 +34,7 @@ This is the basis for creating rows in CLDF representations of the data by
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF FormTable](http://cldf.clld.org/v1.0/terms.rdf#FormTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 24
+[dc:extent](http://purl.org/dc/terms/extent) | 13
 
 
 ### Columns
@@ -83,7 +82,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 24
+[dc:extent](http://purl.org/dc/terms/extent) | 13
 
 
 ### Columns
