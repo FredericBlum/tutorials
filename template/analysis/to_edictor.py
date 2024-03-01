@@ -6,7 +6,8 @@ cols = ['concept_id', 'concept_name', 'language_id', 'language_name', 'value',
         'comment']
 
 # Load dataset
-wl = Wordlist.from_cldf('../cldf/cldf-metadata.json',
+wl = Wordlist.from_cldf(
+    '../cldf/cldf-metadata.json',
     columns=cols,
     namespace=(
         ("language_id", "doculect"),
@@ -20,7 +21,7 @@ for idx in wl:
 # Run automated analysis of cognates
 lex = LexStat(wl)
 lex.get_scorer(runs=10000)
-lex.cluster(threshold=0.55, method="lexstat", cluster_method="infomap", ref="cogid")
+lex.cluster(threshold=0.55, method="sca", cluster_method="infomap", ref="cogid")
 
 # Align data
 alms = Alignments(lex, ref="cogid")
@@ -29,10 +30,14 @@ alms.add_entries("morphemes", "tokens", lambda x: "")
 alms.add_entries("note", "comment", lambda x: x if x else "")
 
 # Output data
-D = {0: ["doculect", "value", "form","concept",
-    "tokens", "cogid", "morphemes", "alignment", "note"]}
+D = {0: [
+    "doculect", "value", "form", "concept",
+    "tokens", "cogid", "morphemes", "alignment", "note"
+    ]}
 for idx in alms:
     D[idx] = [alms[idx, h] for h in D[0]]
+
+lex = Wordlist(D)
 
 # Create sqlite
 lex.output('tsv', filename="d_example", ignore="all")

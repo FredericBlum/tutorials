@@ -30,7 +30,7 @@ The orthography profiles converts all words from one orthography to another. Typ
 
 ### Initial workflow
 
-Once you have digitized all your data, you can start with the conversion of the repository. We recommend to run this within a fresh virtual environment. If you do not know how or why and you don't program a lot, you do not need to worry about this and ignore that recommendation for the moment. 
+Once you have digitized all your data, you can start with the conversion of the repository. We recommend to run this within a fresh virtual environment. If you do not know how or why and you don't program a lot, you do not need to worry about this and ignore that recommendation for the moment.
 
 First, open a terminal, clone the repository, switch your working directory to it and run the following code:
 
@@ -39,13 +39,15 @@ pip install -e .
 cldfbench catconfig
 ```
 
+On Windows, you might need to prefix `pip` with `python -m`.
+
 The last part prompts you to clone local copies of Glottolog, Concepticon, and CLTS. This takes some time and space on your disk, but lets you link your data directly to those reference catalogues.
 
 Once you have done this, you can proceed to create a first version of your orthography profile. You can do so by first running a CLDF conversion, and then create an automatic segmentation based on this first version of the dataset. In the CLDF conversion, you specify the most recent versions of the reference catalogues, to assure your data linking is up-to-date.
 
 ```shell
 cldfbench lexibank.makecldf lexibank_template.py --concepticon-version=v3.1.0 --glottolog-version=v4.8 --clts-version=v2.2.0
-cldfbench lexibank.init_profile lexibank
+cldfbench lexibank.init_profile lexibank_template.py
 ```
 
 You can now find a rough version of your orthography profile in `etc/orthography.tsv`. This profile definitely needs improvement, but provides you with a reasonable first impression of your data. You have to use your linguistic knowledge and, if possible, look for descriptive material about the language to find the correct IPA representations for all graphemes.

@@ -4,7 +4,7 @@
 
 If you use these data please cite
 - the original source
-  > Blum, Frederic. 2024. Template for Workshops on How to digitize data using the Lexibank-skeleton.
+  > Blum, Frederic. 2024. Template for Workshops on "How to digitize data using the Lexibank-skeleton".
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -16,7 +16,7 @@ This dataset is licensed under a CC-BY-4.0 license
 
 
 Conceptlists in Concepticon:
-- [Tadmor-2009-100](https://concepticon.clld.org/contributions/Tadmor-2009-100)
+- [Rzymski-2020-1624](https://concepticon.clld.org/contributions/Rzymski-2020-1624)
 ## Notes
 
 ## Description
@@ -66,7 +66,7 @@ Once you have done this, you can proceed to create a first version of your ortho
 
 ```shell
 cldfbench lexibank.makecldf lexibank_template.py --concepticon-version=v3.1.0 --glottolog-version=v4.8 --clts-version=v2.2.0
-cldfbench lexibank.init_profile lexibank
+cldfbench lexibank.init_profile lexibank_template.py
 ```
 
 You can now find a rough version of your orthography profile in `etc/orthography.tsv`. This profile definitely needs improvement, but provides you with a reasonable first impression of your data. You have to use your linguistic knowledge and, if possible, look for descriptive material about the language to find the correct IPA representations for all graphemes.
@@ -204,24 +204,24 @@ Skirgård, H., Haynie, H. J., Blasi, D. E., Hammarström, H., Collins, J., Latar
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
-![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
-![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
+![BIPA: 70%](https://img.shields.io/badge/BIPA-70%25-orange.svg "BIPA: 70%")
+![CLTS SoundClass: 70%](https://img.shields.io/badge/CLTS%20SoundClass-70%25-orange.svg "CLTS SoundClass: 70%")
 
 - **Varieties:** 1
-- **Concepts:** 13
-- **Lexemes:** 13
+- **Concepts:** 30
+- **Lexemes:** 30
 - **Sources:** 0
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 77
-- **Segments:** 21 (0 BIPA errors, 0 CLTS sound class errors, 21 CLTS modified)
-- **Inventory size (avg):** 21.00
+- **Tokens:** 178
+- **Segments:** 33 (10 BIPA errors, 10 CLTS sound class errors, 23 CLTS modified)
+- **Inventory size (avg):** 33.00
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 13/13 (100.00%)
+- Entries missing sources: 30/30 (100.00%)
 
 # Contributors
 

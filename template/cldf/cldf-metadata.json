@@ -1,11 +1,11 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Blum, Frederic. 2024. Template for Workshops on How to digitize data using the Lexibank-skeleton.",
+    "dc:bibliographicCitation": "Blum, Frederic. 2024. Template for Workshops on \"How to digitize data using the Lexibank-skeleton\".",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": "This repository functions as a template to set up a new lexibank-dataset.",
     "dc:format": [
-        "http://concepticon.clld.org/contributions/Tadmor-2009-100"
+        "http://concepticon.clld.org/contributions/Rzymski-2020-1624"
     ],
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
@@ -52,7 +52,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 13,
+            "dc:extent": 30,
             "tableSchema": {
                 "columns": [
                     {
@@ -221,7 +221,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 13,
+            "dc:extent": 30,
             "tableSchema": {
                 "columns": [
                     {
