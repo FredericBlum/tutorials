@@ -1,4 +1,4 @@
-# Preparation for running the CLDF dictionary extraction
+# Preparation for running CLDF/Lexibank/Edictor on Windows
 
 ## Installing Python
 
@@ -31,7 +31,7 @@ Once you have access, you can _clone_ the repository to your PC using the PowerS
 
 You can then open a PowerShell in that folder, and run all the code as indicated in the README.md of the repository. For some commands, you might need to adapt to some Windows-specific practices. Changing directories, for example, might need the full path to the folder (e.g. `cd folder/to/dictionary/vonprincedaakaka`) instead of the relative path (e.g. `cd vonprincedaakaka`). But those are things that you just need to try out with the help of a search engine.
 
-## Edictors combining text editing and terminals
+## Editors combining text editing and terminals
 
 A common tool to use PowerShells/Terminals are editors such as VisualStudio Code or PyCharm, which combine in a single layout the functionality of a TextEditor, the handling of terminals, and the handling of folder structures. My personal recommendation is VS Code, since it is more modular than PyCharm, and offers all necessary tools without making too many assumptions about stuff.
 
