@@ -1,0 +1,21 @@
+.DS_Store
+.Rproj.user
+papers_abstracts_presentations/acl-style-files
+orga_vault/article_summaries/HistoricalSources
+*.pdf
+erc_mattis/
+*/cldf-resources/
+*.log
+
+# Latex files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc

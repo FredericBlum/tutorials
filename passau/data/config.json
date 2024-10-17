@@ -1,0 +1,65 @@
+{
+    "sqlite": "./",
+    "links": [
+      {
+        "url": "edictor.html", 
+        "data": {
+          "file": "calc",
+          "remote_dbase": "calc",
+          "doculects": "Kaluli|Beami|Onabasulu|Jasya",
+          "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+        },
+        "name": "Bosavi (local)"
+      },
+      {
+        "url": "edictor.html", 
+        "data": {
+          "file": "calc",
+          "remote_dbase": "calc",
+          "doculects": "Jitnu|Guayabero|Guahibo|Playero|Cuiba",
+          "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+        },
+        "name": "Guahiboan (local)"
+      },
+      {
+        "url": "edictor.html", 
+        "data": {
+          "file": "calc",
+          "remote_dbase": "calc",
+          "doculects": "Ulwa|Miskito|Cacaopera|Mayangna",
+          "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+        },
+        "name": "Misumalpan (local)"
+      },
+      {
+        "url": "edictor.html", 
+        "data": {
+          "file": "calc",
+          "remote_dbase": "calc",
+          "doculects": "Songhay (Koyra Chiini)|Songhai_Senni|Zarma|",
+          "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+        },
+        "name": "Songhay (local)"
+      },
+      {
+        "url": "edictor.html", 
+        "data": {
+          "file": "calc",
+          "remote_dbase": "calc",
+          "doculects": "Kanembu|Kanuri|Kanuri (Manga)|",
+          "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+        },
+        "name": "Saharan (local)"
+      },
+      {
+      "url": "edictor.html", 
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Nanai|Evenki|Oroqen|Manchu",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Tungusic (local)"
+    }
+    ]
+  }
