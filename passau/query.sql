@@ -22,5 +22,5 @@ WHERE
         AND
     f.cldf_languageReference = l.cldf_id
         AND
-    l.family IN ('Misumalpan', 'Guahiboan', 'Bosavi', 'Saharan', 'Tungusic', 'Songhay')
+    l.family IN ('Bosavi', 'Guahiboan', 'Bosavi', 'Saharan', 'Tungusic', 'Songhay')
 ;

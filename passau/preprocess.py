@@ -13,7 +13,7 @@ from lexibase.lexibase import LexiBase
 query = 'query.sql'
 
 # Load sqlite
-db = sqlite3.connect('cldf-resources/lexibank-analysed/lexibank.sqlite')
+db = sqlite3.connect('cldf-resources/lexibank-analysed/lexibank2.sqlite3')
 cursor = db.cursor()
 
 with open(query, encoding='utf8') as f:
@@ -60,6 +60,9 @@ for idx in alms:
     if entry not in checkup:
         D[idx] = [alms[idx, h] for h in D[0]]
         checkup.append(entry)
+
+wl = Wordlist(D)
+# lex.output('tsv', filename="bosavi", ignore="all")
 
 # Create sqlite
 lex = LexiBase(D, dbase='data/calc.sqlite3')
