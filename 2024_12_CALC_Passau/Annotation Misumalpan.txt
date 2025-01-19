@@ -1,0 +1,65 @@
+w/j a m b/p u s (vorläufige Rekonstruktion der anderen 3)
+
+j   a m
+w   a n
+--> Concept: ASH, checken ob s zu h + w zu k
+
+Daten zeigen dass in Miskito ein Merge stattfand von *w, *j zu j
+(1) *w, *j > j 
+
+Concept: BONE w a k a l für Mayanga u. Ulwa
+
+Concept: BITE; Mayanga u. Ulwa: k a s
+
+Vorläufige Hypothese Mayanga: letzte Silbe fällt weg
+--> Concept: ASH, BLOOD
+
+Mayanga u. Ulwa teilen recht viele Cognate 
+--> Mayanga u. Ulwa sind näher miteinander verwandt als andere Sprachen
+
+Concept: COME, EARTH (SOIL); r zu w
+a j r a (Cacaopera)
+a j w a (Mayanga/Ulwa)
+
+d u r u (Cacaopera)
+s a w (Mayanga/Ulwa)
+
+Cacaopera verliert s am Wortanfang und -ende
+Concept: ASH, DOG, MOUTH
+
+Grobe Hypothese: p geht in Miskito verloren
+d i p a (Cacaopera)
+d i   a i a (Miskito)
+
+Concept: FAR
+n a i (Mayanga)   
+b a i (Ulwa)
+
+Letztes Concept: GOOD
+
+Concept: HEAR; r in Cacaopera wird zu k in Mayanga und Ulwa 
+-ara (Cacaopera)
+daka (Mayanga und Ulwa)
+--> r zu k? vorher hatte ich die Hypothese dass r zu w wird
+
+Cacaopera unterscheidet sich zu Mayanga und Ulwa häufig in der Wortlänge nur um einen Buchstaben (mehr oder weniger)
+--> es fällt folglich nicht nur das s weg sondern aus andere Buchstaben?
+
+Ein Concept was in allen 4 Sprachen fast gleich war: THOU
+m a n i (Cacaopera)
+m a n (Mayanga)
+m a n (Miskito)
+m a n (Ulwa)
+
+Concept: WHAT
+Vielleicht sogar alle 4 Cognate?
+
+Abschließende Gedanken:
+- der Datensatz ist wahrscheinlich noch zu klein um richtig verlässliche Aussagen zu treffen
+- Mayanga und Ulwa teilen häufig Cognate und sind daher näher miteinander verwandt 
+- Miskito ist meistens die am stärksten abweichende Sprache 
+- In Miskito finden sich am meisten Concepte mit zwei Wortelementen
+- Von Cacaopera zu Mayanga / Ulwa gibt es einen Wandel im r
+- Cacaopera verliert (im Bezug auf Mayanga und Ulwa) häufig das s am Wortanfang und -ende
+--> allerdings unterscheidet sich Cacaopera generell häufig um einen Buchstaben in der Länge (nicht nur s)
+- Es gab in den vorliegenden Konzepten kaum ein Concept welches in allen 4 Sprachen gleich war (s.o. THOU)
