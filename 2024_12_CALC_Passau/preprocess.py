@@ -10,10 +10,10 @@ from lingpy import Wordlist, LexStat, Alignments
 from lexibase.lexibase import LexiBase
 
 # load files
-query = 'query.sql'
+query = 'query_mis.sql'
 
 # Load sqlite
-db = sqlite3.connect('cldf-resources/lexibank-analysed/lexibank2.sqlite3')
+db = sqlite3.connect('cldf-resources/lexibank-analysed/lexibank.sqlite')
 cursor = db.cursor()
 
 with open(query, encoding='utf8') as f:
@@ -26,21 +26,21 @@ header = ['doculect', 'latitude', 'longitude', 'glottocode', 'family', 'concept'
 
 # Print 10 rows to see that the results are good
 print(tabulate(
-    table[:10],
+    table,
     tablefmt='pipe',
     headers=header
 ))
 
 # Write results to tsv
-with open('data.tsv', 'w', encoding='utf8', newline='') as f:
+with open('misu.tsv', 'w', encoding='utf8', newline='') as f:
     writer = csv.writer(f, delimiter='\t')
     writer.writerow(header)
     writer.writerows(table)
 
 # Load as lingpy:Wordlist()
-wl = Wordlist('data.tsv')
+wl = Wordlist('misu.tsv')
 
-# compute cognates and alignments
+# # compute cognates and alignments
 lex = LexStat(wl)
 lex.get_scorer(runs=10000)
 lex.cluster(threshold=0.55, method='lexstat', cluster_method='infomap', ref='cogid')

@@ -1,10 +1,8 @@
 ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGNMENT
-157	Miskito	15.1576	-84.2942	misk1235	Misumalpan	ANT	papu_satka_nani	p a p u + s a t k a + n a n i	1	
 9	Cacaopera	13.74	-88.11	caca1247	Misumalpan	ASH	wabu	w a b u	4	w a - b u -
 61	Mayangna	14.13	-84.34	maya1285	Misumalpan	ASH	wan	w a n	4	w a n - - -
 113	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	ASH	kauh	k a u h	2	k a - - u h
 158	Miskito	15.1576	-84.2942	misk1235	Misumalpan	ASH	yampus	j a m p u s	4	j a m p u s
-159	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BACK	won_nina	w o n + n i n a	6	
 18	Cacaopera	13.74	-88.11	caca1247	Misumalpan	BIG	bajaka	b a j a k a	7	
 70	Mayangna	14.13	-84.34	maya1285	Misumalpan	BIG	nuhni	n u h n i	8	
 122	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BIG	sikka	s i k a	10	
@@ -17,7 +15,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 79	Mayangna	14.13	-84.34	maya1285	Misumalpan	BITE	kas	k a s	16	k a s
 131	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BITE	kas	k a s	16	k a s
 162	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BITE	samaia	s a m a i a	17	
-163	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BITTER	taxpla	t a x p l a	18	
 29	Cacaopera	13.74	-88.11	caca1247	Misumalpan	BLACK	mulka	m u l k a	19	
 81	Mayangna	14.13	-84.34	maya1285	Misumalpan	BLACK	sa:ni	s aː n i	20	
 133	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BLACK	baraska	b a r a s k a	22	
@@ -26,7 +23,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 95	Mayangna	14.13	-84.34	maya1285	Misumalpan	BLOOD	a:	aː	24	aː - - -
 147	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BLOOD	a:was	aː w a s	24	aː w a s
 165	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BLOOD	baxanak	b a x a n a k	25	
-166	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BLOW (OF WIND)	won_wiŋka_pubaia	w o n + w i ŋ k a + p u b a i a	27	
 21	Cacaopera	13.74	-88.11	caca1247	Misumalpan	BONE	naman	n a m a n	28	
 73	Mayangna	14.13	-84.34	maya1285	Misumalpan	BONE	wakal	w a k a l	29	w a k a l
 125	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BONE	wakal	w a k a l	29	w a k a l
@@ -35,7 +31,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 96	Mayangna	14.13	-84.34	maya1285	Misumalpan	BREAST	ta	t a	32	t a
 148	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BREAST	ta	t a	32	t a
 168	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BREAST	won_tialka	w o n + t i a l k a	33	
-169	Miskito	15.1576	-84.2942	misk1235	Misumalpan	CARRY	briwaia	b r i w a i a	34	
 48	Cacaopera	13.74	-88.11	caca1247	Misumalpan	COME	ajra	a j r a	36	a j r a
 100	Mayangna	14.13	-84.34	maya1285	Misumalpan	COME	ajwa	a j w a	36	a j w a
 152	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	COME	ajwa	a j w a	36	a j w a
@@ -63,7 +58,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 63	Mayangna	14.13	-84.34	maya1285	Misumalpan	EAT	kas	k a s	51	k a s
 115	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	EAT	kas	k a s	51	k a s
 175	Miskito	15.1576	-84.2942	misk1235	Misumalpan	EAT	piaia	p i a i a	52	
-176	Miskito	15.1576	-84.2942	misk1235	Misumalpan	EGG	mabra	m a b r a	53	
 33	Cacaopera	13.74	-88.11	caca1247	Misumalpan	EYE	kunn	k u n	56	k u n - - - - - - - -
 85	Mayangna	14.13	-84.34	maya1285	Misumalpan	EYE	makpa	m a k p a	56	- - - - m a k p a - -
 137	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	EYE	makdaka	m a k d a k a	56	- - - - m a k d a k a
@@ -84,12 +78,10 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 90	Mayangna	14.13	-84.34	maya1285	Misumalpan	FISH	was padini	w a s + p a d i n i	69	w a s + p a d i n i
 142	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	FISH	was padika	w a s + p a d i k a	69	w a s + p a d i k a
 181	Miskito	15.1576	-84.2942	misk1235	Misumalpan	FISH	inska	i n s k a	70	
-182	Miskito	15.1576	-84.2942	misk1235	Misumalpan	FLY (INSECT)	palaia	p a l a i a	71	
 13	Cacaopera	13.74	-88.11	caca1247	Misumalpan	GIVE	a	a	72	a
 65	Mayangna	14.13	-84.34	maya1285	Misumalpan	GIVE	a:	aː	72	aː
 117	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	GIVE	a:	aː	72	aː
 183	Miskito	15.1576	-84.2942	misk1235	Misumalpan	GIVE	yabaia	j a b a i a	73	
-184	Miskito	15.1576	-84.2942	misk1235	Misumalpan	GO	waia	w a i a	74	
 6	Cacaopera	13.74	-88.11	caca1247	Misumalpan	GOOD	kua	k u a	75	
 58	Mayangna	14.13	-84.34	maya1285	Misumalpan	GOOD	jamni	j a m n i	76	j a m ( n i )
 110	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	GOOD	jamka	j a m k a	76	j a m ( k a )
@@ -99,7 +91,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 111	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	HAIR	bas	b a s	79	
 186	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HAIR	won_tawa	w o n + t a w a	80	
 187	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HARD	karna	k a r n a	81	
-188	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HE OR SHE OR IT	witin	w i t i n	82	
 32	Cacaopera	13.74	-88.11	caca1247	Misumalpan	HEAR	ara	a r a	84	- a ( r ) a
 84	Mayangna	14.13	-84.34	maya1285	Misumalpan	HEAR	daka	d a k a	84	d a ( k ) a
 136	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	HEAR	daka	d a k a	84	d a ( k ) a
@@ -108,16 +99,10 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 89	Mayangna	14.13	-84.34	maya1285	Misumalpan	HEAVY	tihni	t i h n i	89	t i h n i
 141	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	HEAVY	ti:ka	t iː k a	89	t iː k - a
 190	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HEAVY	wira	w i r a	88	
-191	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HIDE	yukukaia	j u k u k a i a	90	
-192	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HORN (ANATOMY)	won_w_ina_man	w o n + w + i n a + m a n	91	
-193	Miskito	15.1576	-84.2942	misk1235	Misumalpan	HOUSE	utla	u t l a	92	
 52	Cacaopera	13.74	-88.11	caca1247	Misumalpan	I	jami	j a m i	93	
 104	Mayangna	14.13	-84.34	maya1285	Misumalpan	I	jaŋ	j a ŋ	94	
 156	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	I	jaŋ	j a ŋ	94	
 194	Miskito	15.1576	-84.2942	misk1235	Misumalpan	I	yaŋ	j a ŋ	94	
-195	Miskito	15.1576	-84.2942	misk1235	Misumalpan	IN	ra	r a	95	
-196	Miskito	15.1576	-84.2942	misk1235	Misumalpan	KNEE	won_lula	w o n + l u l a	96	
-197	Miskito	15.1576	-84.2942	misk1235	Misumalpan	KNOW	kraikaia	k r a i k a i a	97	
 40	Cacaopera	13.74	-88.11	caca1247	Misumalpan	LAUGH	isnawa	i s n a w a	5	- i s n a w a
 92	Mayangna	14.13	-84.34	maya1285	Misumalpan	LAUGH	aɾa	a ɾ a	3	- - - - a ɾ a
 144	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	LAUGH	kawaɾa	k a w a ɾ a	3	k a w - a ɾ a
@@ -134,13 +119,10 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 75	Mayangna	14.13	-84.34	maya1285	Misumalpan	LONG	najni	n a j n i	109	
 127	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	LONG	juhka	j u h k a	110	j u h - k a
 202	Miskito	15.1576	-84.2942	misk1235	Misumalpan	LONG	yarika	j a r i k a	110	j a r i k a
-203	Miskito	15.1576	-84.2942	misk1235	Misumalpan	LOUSE	kxua	k x u a	112	
 5	Cacaopera	13.74	-88.11	caca1247	Misumalpan	MOUTH	tawa	t a w a	114	
 57	Mayangna	14.13	-84.34	maya1285	Misumalpan	MOUTH	tapas	t a p a s	114	
 109	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	MOUTH	tapas	t a p a s	114	
 204	Miskito	15.1576	-84.2942	misk1235	Misumalpan	MOUTH	won_bila	w o n + b i l a	115	
-205	Miskito	15.1576	-84.2942	misk1235	Misumalpan	NAME	nina	n i n a	116	
-206	Miskito	15.1576	-84.2942	misk1235	Misumalpan	NAVEL	won_klua	w o n + k l u a	117	
 12	Cacaopera	13.74	-88.11	caca1247	Misumalpan	NECK	tsaw	t s a w	118	
 64	Mayangna	14.13	-84.34	maya1285	Misumalpan	NECK	dimak	d i m a k	119	
 116	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	NECK	ma:mak	m aː m a k	119	
@@ -165,13 +147,10 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 99	Mayangna	14.13	-84.34	maya1285	Misumalpan	ONE	as	a s	135	- a s
 151	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	ONE	as	a s	135	- a s
 212	Miskito	15.1576	-84.2942	misk1235	Misumalpan	ONE	kum	k u m	136	
-213	Miskito	15.1576	-84.2942	misk1235	Misumalpan	RAIN (PRECIPITATION)	li	l i	137	
 41	Cacaopera	13.74	-88.11	caca1247	Misumalpan	RED	lala	l a l a	138	
 93	Mayangna	14.13	-84.34	maya1285	Misumalpan	RED	pawni	p a w n i	139	
 145	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	RED	pawka	p a w k a	139	
 214	Miskito	15.1576	-84.2942	misk1235	Misumalpan	RED	pauni	p a u n i	140	
-215	Miskito	15.1576	-84.2942	misk1235	Misumalpan	ROOT	plamaya	p l a m a j a	141	
-216	Miskito	15.1576	-84.2942	misk1235	Misumalpan	RUN	plapaia	p l a p a i a	142	
 42	Cacaopera	13.74	-88.11	caca1247	Misumalpan	SALT	jabulu	j a b u l u	143	
 94	Mayangna	14.13	-84.34	maya1285	Misumalpan	SALT	kuma	k u m a	144	
 146	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	SALT	kuma	k u m a	144	
@@ -187,8 +166,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 101	Mayangna	14.13	-84.34	maya1285	Misumalpan	SEE	tal	t a l	153	
 153	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	SEE	tal	t a l	153	
 219	Miskito	15.1576	-84.2942	misk1235	Misumalpan	SEE	kaikaia	k a i k a i a	154	
-220	Miskito	15.1576	-84.2942	misk1235	Misumalpan	SHADE	dista	d i s t a	155	
-221	Miskito	15.1576	-84.2942	misk1235	Misumalpan	SKIN	won_taya	w o n + t a j a	156	
 35	Cacaopera	13.74	-88.11	caca1247	Misumalpan	SMALL	tʃiki	tʃ i k i	158	tʃ i - k i
 87	Mayangna	14.13	-84.34	maya1285	Misumalpan	SMALL	bi-ni	b i + n i	158	b i + n i
 139	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	SMALL	ba-ka	b a + k a	158	b a + k a
@@ -197,16 +174,10 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 74	Mayangna	14.13	-84.34	maya1285	Misumalpan	SMOKE (EXHAUST)	wajau	w a j a u	161	w a j a u
 126	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	SMOKE (EXHAUST)	waju	w a j u	161	w a j - u
 223	Miskito	15.1576	-84.2942	misk1235	Misumalpan	SMOKE (EXHAUST)	kiasma	k i a s m a	162	
-224	Miskito	15.1576	-84.2942	misk1235	Misumalpan	STAND	buaia	b u a i a	163	
-225	Miskito	15.1576	-84.2942	misk1235	Misumalpan	STAR	slilma	s l i l m a	164	
-226	Miskito	15.1576	-84.2942	misk1235	Misumalpan	SUCK	utbaia	u t b a i a	165	
-227	Miskito	15.1576	-84.2942	misk1235	Misumalpan	SWEET	damni	d a m n i	166	
 10	Cacaopera	13.74	-88.11	caca1247	Misumalpan	TAIL	kuna	k u n a	168	k u n a -
 62	Mayangna	14.13	-84.34	maya1285	Misumalpan	TAIL	mamah	m a m a h	168	m a m a h
 114	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	TAIL	umah	u m a h	168	- u m a h
 228	Miskito	15.1576	-84.2942	misk1235	Misumalpan	TAIL	wuaikai	w u a i k a i	169	
-229	Miskito	15.1576	-84.2942	misk1235	Misumalpan	TAKE	alkaia	a l k a i a	170	
-230	Miskito	15.1576	-84.2942	misk1235	Misumalpan	THICK	twakni	t w a k n i	171	
 16	Cacaopera	13.74	-88.11	caca1247	Misumalpan	THIS	irahi	i r a h i	172	
 68	Mayangna	14.13	-84.34	maya1285	Misumalpan	THIS	a:dika	aː d i k a	174	aː d i k a
 120	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	THIS	a:ka	aː k a	174	aː - - k a
@@ -215,7 +186,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 98	Mayangna	14.13	-84.34	maya1285	Misumalpan	THOU	man	m a n	177	m a n -
 150	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	THOU	man	m a n	177	m a n -
 242	Miskito	15.1576	-84.2942	misk1235	Misumalpan	THOU	man	m a n	177	m a n -
-232	Miskito	15.1576	-84.2942	misk1235	Misumalpan	TIE	wilkaia	w i l k a i a	178	
 25	Cacaopera	13.74	-88.11	caca1247	Misumalpan	TONGUE	tum	t u m	179	t u m
 77	Mayangna	14.13	-84.34	maya1285	Misumalpan	TONGUE	tu	t u	179	t u -
 129	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	TONGUE	tu	t u	179	t u -
@@ -224,7 +194,6 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 67	Mayangna	14.13	-84.34	maya1285	Misumalpan	TOOTH	ana	a n a	181	- a n a
 119	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	TOOTH	ana	a n a	181	- a n a
 234	Miskito	15.1576	-84.2942	misk1235	Misumalpan	TOOTH	won_napa	w o n + n a p a	182	
-200	Miskito	15.1576	-84.2942	misk1235	Misumalpan	UPPER LEG (THIGH)	won_kuxma	w o n + k u x m a	183	
 1	Cacaopera	13.74	-88.11	caca1247	Misumalpan	WATER	li	l i	186	
 53	Mayangna	14.13	-84.34	maya1285	Misumalpan	WATER	was	w a s	185	
 105	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	WATER	was	w a s	185	
@@ -233,23 +202,46 @@ ID	DOCULECT	LATITUDE	LONGITUDE	GLOTTOCODE	FAMILY	CONCEPT	FORM	TOKENS	COGID	ALIGN
 91	Mayangna	14.13	-84.34	maya1285	Misumalpan	WHAT	di	d i	188	
 143	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	WHAT	di	d i	188	
 236	Miskito	15.1576	-84.2942	misk1235	Misumalpan	WHAT	ba	b a	187	
-237	Miskito	15.1576	-84.2942	misk1235	Misumalpan	WHO	ya	j a	189	
 238	Miskito	15.1576	-84.2942	misk1235	Misumalpan	WIDE	bila_tara	b i l a + t a r a	190	
 51	Cacaopera	13.74	-88.11	caca1247	Misumalpan	WIND	win	w i n	191	
 103	Mayangna	14.13	-84.34	maya1285	Misumalpan	WIND	win	w i n	191	
 155	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	WIND	win	w i n	191	
 240	Miskito	15.1576	-84.2942	misk1235	Misumalpan	WIND	pasa	p a s a	192	
-239	Miskito	15.1576	-84.2942	misk1235	Misumalpan	WING	tnawa	t n a w a	193	
-241	Miskito	15.1576	-84.2942	misk1235	Misumalpan	YESTERDAY	naxwala	n a xʷ a l a	194	
+241	Cacaopera	13.74	-88.11	caca1247	Misumalpan	MOUNTAIN	karan	k a r a n	193	
+242	Mayangna	14.13	-84.34	maya1285	Misumalpan	MOUNTAIN	asaŋ	a s a ŋ	193	
+243	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	MOUNTAIN	asaŋ	a s a ŋ	193	
+244	Cacaopera	13.74	-88.11	caca1247	Misumalpan	TREE	man	m a n	194	
+245	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	TREE	pan	p a n	194	
+246	Mayangna	14.13	-84.34	maya1285	Misumalpan	TREE	pan	p a n	194	
+247	Miskito	15.1576	-84.2942	misk1235	Misumalpan	TREE	dus	d u s	195	
+248	Cacaopera	13.74	-88.11	caca1247	Misumalpan	TWO	buru	b u r u	196	
+249	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	TWO	bu	b u	196	
+250	Mayangna	14.13	-84.34	maya1285	Misumalpan	TWO	bu	b u	196	
+251	Miskito	15.1576	-84.2942	misk1235	Misumalpan	TWO	wol	w o l	196	
+252	Cacaopera	13.74	-88.11	caca1247	Misumalpan	WOMAN	juara	j ua r a	197	
+253	Mayangna	14.13	-84.34	maya1285	Misumalpan	WOMAN	jal	j a l	197	
+254	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	WOMAN	jal	j a l	197	
+255	Miskito	15.1576	-84.2942	misk1235	Misumalpan	WOMAN	mairin	m ai r i n	197	
+256	Cacaopera	13.74	-88.11	caca1247	Misumalpan	THREE	watba	w a t b a	198	
+257	Mayangna	14.13	-84.34	maya1285	Misumalpan	THREE	bas	b a s	198	
+258	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	THREE	bas	b a s	198	
+259	Miskito	15.1576	-84.2942	misk1235	Misumalpan	THREE	yumpa	j u m p a	198	
+260	Cacaopera	13.74	-88.11	caca1247	Misumalpan	BARK	kuta	k u t a	199	
+261	Mayangna	14.13	-84.34	maya1285	Misumalpan	BARK	utak	u t a k	199	
+262	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	BARK	utak	u t a k	199	
+263	Miskito	15.1576	-84.2942	misk1235	Misumalpan	BARK	dus_taya	d u s + t a y a	0	
+264	Cacaopera	13.74	-88.11	caca1247	Misumalpan	CUT	kat	k a t	200	
+265	Mayangna	14.13	-84.34	maya1285	Misumalpan	CUT	dak	d a k	200	
+266	Ulwa	12.93	-83.58	ulwa1239	Misumalpan	CUT	dak	d a k	200	
 #@highlight=TOKENS
 #@sampa=IPA|TOKENS
 #@pinyin=
 #@css=menu:show|database:hide
 #@basics=COGID|CONCEPT|DOCULECT|TOKENS
 #@_selected_doculects=Cacaopera|Mayangna|Miskito|Ulwa
-#@_selected_concepts=YESTERDAY
+#@_selected_concepts=ASH
 #@sorted_taxa=Cacaopera|Mayangna|Miskito|Ulwa
-#@sorted_concepts=ANT|ASH|BACK|BIG|BIRD|BITE|BITTER|BLACK|BLOOD|BLOW (OF WIND)|BONE|BREAST|CARRY|COME|CRY|DOG|DRINK|EAR|EARTH (SOIL)|EAT|EGG|EYE|FALL|FAR|FIRE|FISH|FLY (INSECT)|GIVE|GO|GOOD|HAIR|HARD|HE OR SHE OR IT|HEAR|HEAVY|HIDE|HORN (ANATOMY)|HOUSE|I|IN|KNEE|KNOW|LAUGH|LEAF|LIVER|LONG|LOUSE|MOUTH|NAME|NAVEL|NECK|NEW|NIGHT|NOSE|NOT|OLD|ONE|RAIN (PRECIPITATION)|RED|ROOT|RUN|SALT|SAND|SAY|SEE|SHADE|SKIN|SMALL|SMOKE (EXHAUST)|STAND|STAR|SUCK|SWEET|TAIL|TAKE|THICK|THIS|THOU|TIE|TONGUE|TOOTH|UPPER LEG (THIGH)|WATER|WHAT|WHO|WIDE|WIND|WING|YESTERDAY
+#@sorted_concepts=ASH|BARK|BIG|BIRD|BITE|BLACK|BLOOD|BONE|BREAST|COME|CRY|CUT|DOG|DRINK|EAR|EARTH (SOIL)|EAT|EYE|FALL|FAR|FIRE|FISH|GIVE|GOOD|HAIR|HARD|HEAR|HEAVY|I|LAUGH|LEAF|LIVER|LONG|MOUNTAIN|MOUTH|NECK|NEW|NIGHT|NOSE|NOT|OLD|ONE|RED|SALT|SAND|SAY|SEE|SMALL|SMOKE (EXHAUST)|TAIL|THIS|THOU|THREE|TONGUE|TOOTH|TREE|TWO|WATER|WHAT|WIDE|WIND|WOMAN
 #@display=filedisplay|cognates
 #@missing_marker=Ø
 #@separator=
