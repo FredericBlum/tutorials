@@ -107,7 +107,7 @@ We will cover the following steps:
 Using LingPy, it is possible to automatically extract the sound correspondences that have been inferred from the cognate sets. To do so, just run the following code:
 
 ```shell
-pip instal lingrex
+pip install lingrex
 python write_patterns.py
 ```
 
