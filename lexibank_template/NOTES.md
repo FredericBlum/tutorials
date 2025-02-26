@@ -46,7 +46,7 @@ The last part prompts you to clone local copies of Glottolog, Concepticon, and C
 Once you have done this, you can proceed to create a first version of your orthography profile. You can do so by first running a CLDF conversion, and then create an automatic segmentation based on this first version of the dataset. In the CLDF conversion, you specify the most recent versions of the reference catalogues, to assure your data linking is up-to-date.
 
 ```shell
-cldfbench lexibank.makecldf lexibank_template.py --concepticon-version=v3.1.0 --glottolog-version=v4.8 --clts-version=v2.2.0
+cldfbench lexibank.makecldf lexibank_template.py --concepticon-version=v3.4.0 --glottolog-version=v5.1 --clts-version=v2.3.0
 cldfbench lexibank.init_profile lexibank_template.py
 ```
 
@@ -55,12 +55,19 @@ You can now find a rough version of your orthography profile in `etc/orthography
 If you now run the CLDF conversion again, the orthography profile is used to segment the data.
 
 ```shell
-cldfbench lexibank.makecldf lexibank_template.py --concepticon-version=v3.1.0 --glottolog-version=v4.8 --clts-version=v2.2.0
+cldfbench lexibank.makecldf lexibank_template.py --concepticon-version=v3.4.0 --glottolog-version=v5.1 --clts-version=v2.3.0
 ```
 
 If you have errors in the profile, you will receive an information about BIPA errors in your command line, and find additional information in the `TRANSCRIPTION.md` file. Once you have finalized the orthography profile, run the CLDF conversion a last time to have your dataset ready for analysis.
 
 ## Analyzing the data
+
+For the second part of the tutorial, we switch to a full dataset created by myself, `blumpanotacana`.
+
+```shell
+git clone https://github.com/pano-takanan-history/blumpanotacana  --branch v1.2
+cd blumpanotacana
+```
 
 ### Mapping the languages
 
@@ -68,7 +75,7 @@ You can easily create a map of the languages involved in your dataset using the 
 
 ```shell
 pip install cldfviz[cartopy]
-cldfbench cldfviz.map ./ --format=png --markersize 15 --language-labels --language-properties-colormaps=viridis
+cldfbench cldfviz.map ./ --format=png --markersize 15 --language-labels --language-properties="SubGroup" --language-properties-colormaps=viridis
 ```
 
 To build a png-image, you might need additional requirements which we cannot cover in this tutorial. Please see the following link if you have any troubles installing the `cartopy`-package: <https://scitools.org.uk/cartopy/docs/latest/installing.html>
@@ -79,6 +86,15 @@ You can also try out the html-format which does not require `cartopy`:
 pip install cldfviz
 cldfbench cldfviz.map ./ --format=html --markersize 15 --language-labels
 ```
+
+## New
+
+```shell
+pip install "edictor[lingpy]"
+edictor wordlist --dataset=cldf/cldf-metadata.json --name=blumpanotacana --addon="cognacy:cogid,alignment:alignment
+```
+
+## Old
 
 ### Converting the data to EDICTOR
 
