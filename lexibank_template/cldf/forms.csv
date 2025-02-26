@@ -1,0 +1,31 @@
+ID,Local_ID,Language_ID,Parameter_ID,Value,Form,Segments,Comment,Source,Cognacy,Loan,Graphemes,Profile
+Morike-742_tongue-1,,Morike,742_tongue,pimĩn,pimĩn,p i m ĩ n,Zunge,,,,^ p i m ĩ n $,default
+Morike-141_tooth-1,,Morike,141_tooth,pas,pas,p a s,Zahn,,,,^ p a s $,default
+Morike-541_eye-1,,Morike,541_eye,piṓki̯,piṓki̯,p i o k i̯,Auge,,,,^ p i ṓ k i̯ $,default
+Morike-543_ear-1,,Morike,543_ear,pʋái,pʋái,p ʋ á i,Ohr,,,,^ p ʋ á i $,default
+Morike-140_head-1,,Morike,140_head,pʋṓko,pʋṓko,p ʋ o k o,Kopf,,,,^ p ʋ ṓ k o $,default
+Morike-96_hand-1,,Morike,96_hand,piṓ,piṓ,p i o,Hand,,,,^ p i ṓ $,default
+Morike-69_water-1,,Morike,69_water,ōn,ōn,ō n,Wasser,,,,^ ō n $,default
+Morike-7_fire-1,,Morike,7_fire,aškṓmi,aškṓmi,a ʃ k o m i,Feuer,,,,^ a š k ṓ m i $,default
+Morike-138_sun-1,,Morike,138_sun,njṓki,njṓki,ŋ o k i,Sonne,,,,^ nj ṓ k i $,default
+Morike-733_moon-1,,Morike,733_moon,stā́ka,stā́ka,s t <<ā>> <<́>> k a,Mond,,,,^ s t <ā> <́> k a $,default
+Morike-12_earthsoil-1,,Morike,12_earthsoil,pṓtonǒ,pṓtonǒ,p o t o n ǒ,Erde (Erdboden),,,,^ p ṓ t o n ǒ $,default
+Morike-972_stone-1,,Morike,972_stone,melī́tš,melī́tš,m <<e>> <<l>> <<ī>> <<́>> t ʃ,Stein,,,,^ m <e> <l> <ī> <́> t š $,default
+Morike-98_house-1,,Morike,98_house,anár,anár,a n á r,Haus (Wohn-),,,,^ a n á r $,default
+Morike-45_man-1,,Morike,45_man,tsaná,tsaná,ts a n á,Mann,,,,^ ts a n á $,default
+Morike-71_woman-1,,Morike,71_woman,šitǒ́,šitǒ́,ʃ i t ǒ <<́>>,Frau,,,,^ š i t ǒ <́> $,default
+Morike-1048_jaguar-1,,Morike,1048_jaguar,astsá,astsá,a s ts á,Jaguar,,,,^ a s ts á $,default
+Morike-564_stick-1,,Morike,564_stick,atá,atá,a t á,Stock,,,,^ a t á $,default
+Morike-1314_maize-1,,Morike,1314_maize,náši,náši,n á ʃ i,Mais,,,,^ n á š i $,default
+Morike-962_tobacco-1,,Morike,962_tobacco,porṓts,porṓts,p o r o ts,Tabak,,,,^ p o r ṓ ts $,default
+Morike-388_one-1,,Morike,388_one,akápastoi,akápastoi,a k á p a s t o i,eins,,,,^ a k á p a s t o i $,default
+Morike-389_two-1,,Morike,389_two,šikará,šikará,ʃ i k a r á,zwei,,,,^ š i k a r á $,default
+Morike-755_three-1,,Morike,755_three,šikabená,šikabená,ʃ i k a <<b>> <<e>> n á,drei,,,,^ š i k a <b> <e> n á $,default
+Morike-386_white-1,,Morike,386_white,paškašemarú,paškašemarú,p a ʃ k a ʃ <<e>> m a r <<ú>>,weiß,,,,^ p a š k a š <e> m a r <ú> $,default
+Morike-279_black-1,,Morike,279_black,paskšómašišo,paskšómašišo,p a s k ʃ ó m a ʃ i ʃ o,schwarz,,,,^ p a s k š ó m a š i š o $,default
+Morike-552_red-1,,Morike,552_red,kurápuits,kurápuits,k u r á p u i ts,rot,,,,^ k u r á p u i ts $,default
+Morike-26_good-1,,Morike,26_good,ontí,ontí,o n t í,gut,,,,^ o n t í $,default
+Morike-228_bad-1,,Morike,228_bad,nhamašišo,nhamašišo,n <<h>> a m a ʃ i ʃ o,schlecht,,,,^ n <h> a m a š i š o $,default
+Morike-99_eat-1,,Morike,99_eat,pinšínari,pinšínari,p i n ʃ í n a r i,essen,,,,^ p i n š í n a r i $,default
+Morike-143_sleep-1,,Morike,143_sleep,yamáktso,yamáktso,j a m á k ts o,schlafen,,,,^ y a m á k ts o $,default
+Morike-21_kill-1,,Morike,21_kill,tidjóktstets,tidjóktstets,t i <<d>> <<j>> ó k ts t <<e>> ts,töten,,,,^ t i <d> <j> ó k ts t <e> ts $,default
