@@ -1,6 +1,6 @@
 ## Description
 
-This repository contains a template that will be used for workshops on 'How to create a LexiBank dataset' and the annotation of such a dataset using EDICTOR (<https://digling.org/edictor/>). The goal is to creating a dataset in Lexibank style (List et al. 2023), which is a specific form of CLDF datasets (Forkel et al. 2018).
+This repository contains a template that will be used for workshops on 'How to create a LexiBank dataset' and the annotation of such a dataset using EDICTOR (<https://digling.org/edictor/>). The goal is creating a dataset in Lexibank style (List et al. 2023), which is a specific form of CLDF datasets (Forkel et al. 2018).
 
 Feel free to use und share this repository, or to contribute directly if you see any errors.
 
@@ -74,7 +74,7 @@ cd blumpanotacana
 You can easily create a map of the languages involved in your dataset using the tools of `cldfbench`, given that you have assigned a glottocode to your languages in `etc/languages.tsv`.
 
 ```shell
-pip install cldfviz[cartopy]
+pip install 'cldfviz[cartopy]'
 cldfbench cldfviz.map ./ --format=png --markersize 15 --language-labels --language-properties="SubGroup" --language-properties-colormaps=viridis
 ```
 
