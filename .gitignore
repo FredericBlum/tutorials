@@ -1,10 +1,7 @@
 .DS_Store
 .Rproj.user
-papers_abstracts_presentations/acl-style-files
-orga_vault/article_summaries/HistoricalSources
-*.pdf
-erc_mattis/
 */cldf-resources/
+*/data/*
 *.log
 
 # Latex files
