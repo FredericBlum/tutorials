@@ -23,7 +23,7 @@ WHERE
     f.cldf_languageReference = l.cldf_id
         AND
         (
-            l.family IN ('Barbacoan', 'Chocoan', 'Guahiboan', 'Naduhup', 'Misumalpan', 'Cochimi-Yuman', 'Chumashan', 'Muskogean', 'Miwok-Costanoan', 'Chicham', 'Lengua-Mascoy', 'Saliban')
+            l.family IN ('Barbacoan', 'Chocoan', 'Guahiboan', 'Naduhup', 'Misumalpan', 'Cochimi-Yuman', 'Chumashan', 'Muskogean', 'Miwok-Costanoan', 'Chicham', 'Cahuapanan', 'Lencan')
             OR
             l.cldf_glottocode IN ('pume1238', 'paez1247', 'puin1248', 'natc1249', 'atak1252')
         )

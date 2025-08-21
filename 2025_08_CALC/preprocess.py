@@ -10,21 +10,22 @@ from tabulate import tabulate
 from lingpy import Wordlist, LexStat, Alignments
 from lexibase.lexibase import LexiBase
 from pyconcepticon import Concepticon
+from clldutils.misc import slug
 
 # load files
 query = 'query_sa.sql'
 
 # Load sqlite
-db = sqlite3.connect('data/lexibank-analysed/lexibank.sqlite')
+db = sqlite3.connect('data/lexibank-analysed/lexibank.sqlite3')
 cursor = db.cursor()
 
 conc = Concepticon('data/concepticon/')
 
 concepts = []
+# Read in concept list
 clist = conc.conceptlists['Bowern-2021-207a'].concepts
 for item in clist:
     concepts.append(clist[item].concepticon_gloss)
-    # print(clist[item].concepticon_id, clist[item].concepticon_gloss)
 
 
 with open(query, encoding='utf8') as f:
@@ -33,28 +34,30 @@ with open(query, encoding='utf8') as f:
 # Execute query
 cursor.execute(query)
 table = cursor.fetchall()
+# columns that we retrieve
 header = ['doculect', 'latitude', 'longitude', 'glottocode', 'family', 'concept', 'form', 'tokens']
 
 # Print 10 rows to see that the results are good
-print(tabulate(
-    table,
-    tablefmt='pipe',
-    headers=header
-))
+# print(tabulate(
+#     table,
+#     tablefmt='pipe',
+#     headers=header
+# ))
 
 output_data = []
 for item in table:
+    # check if concept is in concept list
     if item[5] in concepts:
         output_data.append(item)
 
 # Write results to tsv
-with open('data.tsv', 'w', encoding='utf8', newline='') as f:
+with open('data/data.tsv', 'w', encoding='utf8', newline='') as f:
     writer = csv.writer(f, delimiter='\t')
     writer.writerow(header)
     writer.writerows(table)
 
 # Load as lingpy:Wordlist()
-wl = Wordlist('data.tsv')
+wl = Wordlist('data/data.tsv')
 
 # # compute cognates and alignments
 lex = LexStat(wl)
@@ -71,14 +74,15 @@ D = {0: ['doculect', 'family', 'value', 'form', 'concept', 'tokens', 'cogid', 'm
 
 checkup = []
 for idx in alms:
+    alms[idx, 'doculect'] = slug(alms[idx, 'doculect'])
     entry = [alms[idx, 'doculect'], alms[idx, 'concept'], alms[idx, 'form']]
     # Remove duplicates
     if entry not in checkup:
         D[idx] = [alms[idx, h] for h in D[0]]
         checkup.append(entry)
 
-wl = Wordlist(D)
-lex.output('tsv', filename="data_annotated", ignore="all")
+# wl = Wordlist(D)
+# lex.output('tsv', filename="data/data_annotated", ignore="all")
 
 # Create sqlite
 lex = LexiBase(D, dbase='data/calc.sqlite3')

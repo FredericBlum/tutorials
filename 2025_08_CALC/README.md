@@ -8,30 +8,44 @@ This is a readme-file with all the important information that you need.
 
 This code is for documentary purposes
 
+## Pre-processing
+
+```shell
+python3 -m venv venv/center
+source venv/center/bin/activate
+pip install pylexibank
+pip install lexibase
+```
+
 ```shell
 # with csvkit installed
-csvsql --query "SELECT Name,Family,Dataset,Concepts FROM languages WHERE Macroarea = 'South America' AND Concepts > 100 AND Selexion == 1 ORDER BY Family, Name" --table languages.csv
+csvsql --query "SELECT Name,Family,Dataset,Concepts FROM languages WHERE Macroarea = 'South America' AND Concepts > 100 AND Selexion == 1 ORDER BY Family, Name" --table map/languages.csv
 ```
 
 ```shell
 git clone https://github.com/lexibank/lexibank-analysed data/lexibank-analysed
+git clone https://github.com/concepticon/concepticon-data data/concepticon --branch v3.4.0
+
+cldf createdb data/lexibank-analysed/cldf/wordlist-metadata.json data/lexibank-analysed/lexibank.sqlite3
 ```
 
+```shell
+python preprocess.py
+```
 
-paez + barbacoan
-chocoan + Yaruro
-guahibo + puinave
-naduhup
-Misumalpan
-Cochimi-Yuman
-Chumashan
-Muskogean + natchez + Atakapa
-Miwok-Costanoan
-Chicham
-Lengua-Mascoy
-Saliban
+```shell
+python tree.py
+```
+
+```shell
+python -c "from lingpy import *; from lingpy.convert.strings import write_nexus; wl = Wordlist('calc'); write_nexus(wl, mode='beastwords', filename='calc.nex', ref='cogid')"
+```
+
+lencan
+Chicham + cahuapanan
 
 csvcut -t -c family,doculect,latitude,longitude data.tsv | uniq > languages.tsv
+
 
 
 
@@ -52,26 +66,13 @@ Reading list
 Beide sind OpenSource.
 
 
-Schedule
-
-
-Input 1: 30min
-Group work 1: 45min
-
--- 15min break --
-
-Input 2: 1h
-
--- lunch --
-
-Group work 2: 2h
-
-Input: 2x45min
-
-Group work: 2x 90min
-
-    10-10:45 Input: How to build a LexiBank dataset
-    10:45-12:15 Group Work 1: Building a LexiBank dataset
-    Lunch break
-    14:00-14:45 Input: Cognates and sound correspondences in EDICTOR
-    14:45-16:15 Group Work 2: Annotating a LexiBank dataset
+9:00 - 10:00: How to build a LexiBank dataset - the role of standardized data
+10:00 - 10:30: LexiBank in practice
+    10:30 - 11:00: Break
+11:00 - 12:00: CALC with EDICTOR (Input)
+12:00 - 12:45: CALC with EDICTOR (practice I)
+    12:45 - 14:00: Lunch
+13:30 - 15:00: CALC with EDICTOR (practice II)
+    15:00 - 15:30: Break
+15:30 - 16:00: Outlook // short presentations
+16:00 - 17:30: Group project

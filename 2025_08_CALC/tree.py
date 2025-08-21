@@ -3,7 +3,7 @@ Compute a simple tree.
 """
 from lingpy import Wordlist
 
-lex = Wordlist('misumalpam.tsv')
+lex = Wordlist('data/calc')
 
 lex.calculate('tree', ref='cogid')
 
