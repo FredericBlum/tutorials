@@ -1,7 +1,8 @@
 .DS_Store
 .Rproj.user
 */cldf-resources/
-*/data/*
+lexibank-analysed/
+concepticon/
 *.log
 
 # Latex files

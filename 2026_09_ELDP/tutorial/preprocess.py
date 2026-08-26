@@ -74,7 +74,7 @@ D = {0: ['doculect', 'family', 'value', 'form', 'concept', 'tokens', 'cogid', 'm
 
 checkup = []
 for idx in alms:
-    alms[idx, 'doculect'] = slug(alms[idx, 'doculect'])
+    alms[idx, 'doculect'] = alms[idx, 'doculect'].replace(' ', '')
     entry = [alms[idx, 'doculect'], alms[idx, 'concept'], alms[idx, 'form']]
     # Remove duplicates
     if entry not in checkup:

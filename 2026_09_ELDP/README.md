@@ -53,7 +53,7 @@ pip install "edictor[lingpy]"
 Now clone the repository:
 
 ```shell
-git clone https://github.com/FredericBlum/pucp_winterschool_calc
+git clone https://github.com/FredericBlum/tutorials
 ```
 
 ### Setting up Windows
@@ -90,13 +90,13 @@ Note: MacOS and Linux use `/` to annotate folder structure. If you use Windows, 
 First, clone the repository to your local PC.
 
 ```shell
-git clone https://github.com/FredericBlum/pucp_winterschool_calc
+git clone https://github.com/FredericBlum/tutorials
 ```
 
 Then, change your directory into the cloned repository and switch into the `tutorial` folder. There, clone the `crossandean` dataset.
 
 ```shell
-cd pucp_winterschool_calc/tutorial
+cd tutorials/tutorial
 git clone https://github.com/lexibank/crossandean data/crossandean/
 ```
 
@@ -120,12 +120,12 @@ pip install igraph
 python preprocess.py
 ```
 
-## CALC in practice
+## CALC in practice: CrossAndean data
 
 Open VS Codium and the 'lexibank' folder you created. Here, open your terminal and run the codes as written below.
 
 ```shell
-git clone https://github.com/FredericBlum/pucp_winterschool_calc
+git clone https://github.com/FredericBlum/tutorials
 ```
 
 ### Preparing the `crossandean` dataset for illustratory purposes
