@@ -1,0 +1,105 @@
+{
+  "sqlite": "./",
+  "links": [
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "crossandean",
+        "remote_dbase": "crossandean",
+        "doculects": "Kawki|Jaqaru|Huancane|Puki|Sullkatiti|Atalla|Curva|Huangascar|Chetilla|Chachapoyas|Yanac|Apurimac|Jauja|Santiagueno|Pocona|Laraos|Tarma|Chipaya|Iruhito|Tsimu",
+        "columns": "DOCULECT|FAMILY|SUBGROUP|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Quechua (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Catio|Embera|EmberaTado|Emberachami|Epena|Wounaan|Yaruro",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Chocoan (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Paez|Awa|Cayapa|Guambiano|Totoro|Colorado",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Barbacoan (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Puinave|Daw|Yuhup|Cuiba|Guahibo|Guayabero|Jitnu|Playero",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Guahiboan / Nadahup (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Miskito|Cacaopera|Mayangna|Ulwa|LencaHonduras|LencaSalvador",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Misumalpan + Lencan (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "ChumashBarbareno|ChumashVentureno|ChumashObispeno|ChumashCruzeno|ChumashIneseno|",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Chumashan (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Ipai|Yuma|Yavapai|Iipayaa|Cocopa|Kiliwa|Mojave",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Cochimi-Yuman (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Alabama|Choctaw|Natchez|Atakapa",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Muskogean + Isolates (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "CentralSierrMmiwok|NorthernSierraMiwok|SouthernSierraMiwok|PlainsMiwok|Mutsun|LakeMiwok",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Miwok-Costanoan (local)"
+    },
+	{
+      "url": "edictor.html",
+      "data": {
+        "file": "calc",
+        "remote_dbase": "calc",
+        "doculects": "Shuar|Aguaruna|Ashuar|Huambisa|Chayahuita|Jebero",
+        "columns": "DOCULECT|FAMILY|CONCEPT|FORM|TOKENS|COGID|ALIGNMENT|PATTERNS|NOTE"
+      },
+      "name": "Chicham + Cahuapanan (local)"
+    }
+  ]
+}
