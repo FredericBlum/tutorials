@@ -8,19 +8,9 @@ This is a README-file with all the important information that you need for follo
 
 Please install the following software:
 
-- Python3.13 (<https://www.python.org/downloads/>)
+- Python v3.15 (<https://www.python.org/downloads/>)
 - Git (<https://git-scm.com/downloads>)
 - VS Codium (<https://vscodium.com/#install>) + Rainbow CSV Extension
-
-### Recommended readings
-
-These are some articles that introduce some of the principles and software used.
-
-> Blum, F., Barrientos, C., Zariquiey, R. et al. A comparative wordlist for investigating distant relations among languages in Lowland South America. Sci Data 11, 92 (2024). https://doi.org/10.1038/s41597-024-02928-7
-
-> List, J.-M., & van Dam, K. (2024). Invited paper: Computer-Assisted Language Comparison with EDICTOR 3. In N. Tahmasebi, S. Montariol, A. Kutuzov, D. Alfter, F. Periti, P. Cassotti, & N. Huebscher (Eds.), Proceedings of the 5th Workshop on Computational Approaches to Historical Language Change (pp. 1–11). Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.lchange-1.1
-
-## Preparing your computer
 
 ### All platforms: software installation
 
@@ -110,7 +100,7 @@ For the hands-on-session, you do no thave to run this, since I provide you the d
 git clone https://github.com/lexibank/lexibank-analysed data/lexibank-analysed
 git clone https://github.com/concepticon/concepticon-data data/concepticon --branch v3.4.0
 
-cldf createdb data/lexibank-analysed/cldf/wordlist-metadata.json data/lexibank-analysed/lexibank.sqlite3
+cldf createdb data/lexibank-analysed/cldf/wordlist-metadata.json data/lexibank.sqlite3
 ```
 
 Run the query that retrieves the data from lexibank and a first automated cognate detection process.

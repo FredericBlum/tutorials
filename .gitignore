@@ -18,3 +18,5 @@ crossandean/
 *.snm
 *.synctex.gz
 *.toc
+
+*data/
