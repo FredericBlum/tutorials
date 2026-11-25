@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 
 DATA = "Lexibank"
-# DATA = "Grambank"
+DATA = "Grambank"
 
 if DATA == "Lexibank":
     conceptlist = 'Starostin-1991-110'
@@ -83,21 +83,21 @@ for fam in fam_order:
     ))
 
 # Boxed labels for highlighted languages
-for i, (gcode, fam) in enumerate(zip(gcodes, families)):
-    if gcode in highlight:
-        fig.add_annotation(
-            x=coords[i, 0],
-            y=coords[i, 1],
-            text=gcode,
-            showarrow=False,
-            xshift=10,
-            yshift=10,
-            bgcolor='white',
-            bordercolor='black',
-            borderwidth=1,
-            borderpad=3,
-            font=dict(size=12)
-        )
+# for i, (gcode, fam) in enumerate(zip(gcodes, families)):
+#     if gcode in highlight:
+#         fig.add_annotation(
+#             x=coords[i, 0],
+#             y=coords[i, 1],
+#             text=gcode,
+#             showarrow=False,
+#             xshift=10,
+#             yshift=10,
+#             bgcolor='white',
+#             bordercolor='black',
+#             borderwidth=1,
+#             borderpad=3,
+#             font=dict(size=12)
+#         )
 
 fig.update_layout(
     title=dict(
